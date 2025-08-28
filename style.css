@@ -1,0 +1,75 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #6a11cb, #2575fc);
+}
+
+/* Login box */
+.login-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form fields */
+.login-container label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.login-container input:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 5px rgba(37,117,252,0.5);
+}
+
+/* Button */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  background: #1a5bd7;
+}
+
+/* Message text */
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+}
